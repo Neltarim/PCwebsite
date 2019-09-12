@@ -9,7 +9,7 @@
 header .row{
     background-image: url(../styles/images/setup3.jpg);
     min-height: 70vh;
-    color: #a6a6a6;
+    color: #eaeaea;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -56,3 +56,33 @@ header .slogan{
     background-color: #b3b3b34a;
 
 } */
+
+.find{
+    min-height: calc(100vh - 50px);
+    background-color: #d3dae4;
+}
+.find span{
+    font-size: 5rem;
+    color: #0065cc;
+}
+
+.find h5{
+    font-size: 2.5rem;
+    color: #888;
+}
+.map iframe{
+    width: 100%;
+    min-height: calc(100vh - 50px);
+}
+
+#contact{
+    background-image: url(../styles/images/setup2.jpg);
+    min-height: 80vh;
+    color: #eaeaea;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.button2{
+    text-align: center!important;
+}
