@@ -2,15 +2,14 @@
 <html lang="fr">
 
 <head>
-    <!-- Required meta tags -->
+    <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Le spécialiste de la réparation de l'optimisation d'ordinateur">
     <link href="https://fonts.googleapis.com/css?family=Contrail+One|Dancing+Script&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0db0d2c85f.js"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="styles/images/téléchargement.png">
 
@@ -19,7 +18,7 @@
 
 <body id="top">
 
-    <!-- // LA NAVBAR RESPONSIVE \\ -->
+    <!-- // NAVBAR \\ -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#top"><img src="styles/images/téléchargement.png" alt="logo"> PC Doctor</a>
@@ -29,9 +28,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="#haut">Home <span class="sr-only">(current)</span></a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#presentation">Qui sommes-nous ?</a>
                 </li>
@@ -43,25 +39,27 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Nous contacter</a>
-                    <!-- amene sur div en bas de page pour cliquer sur un bouton et arriver sur une page de contact (un bouton dans le HOME faire la meme action) -->
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!-- // LE HEADER \\ -->
+    <!-- // HEADER \\ -->
 
     <header class="container-fluid">
         <div class="row align-items-center">
             <div class="col-12 col-md-6 main_image d-flex align-items-center">
                 <div id="buton">
                     <h1 class="ml-5">PC Doctor</h1>
-                    <button type="button" class="btn btn-primary ml-5">Nous contacter</button>
+                    <div class="btn-bg bg-2">
+                        <div class="btn btn-2">
+                            <a href="contact_form.html" style="text-decoration: none;"><button type="button" class="btn btn-primary ml-5">Nous Contacter</button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 slogan">
                 <h2>Le spécialtiste du dépannage informatique</h2>
-
             </div>
         </div>
     </header>
@@ -181,9 +179,11 @@
 
     <div class="container-fluid" id="contact">
         <div class="row align-items-center">
-            <div id="bouton2">
-                <!-- <h1>Contactez-nous</h1> -->
-                <button type="button" class="btn btn-primary">Nous contacter</button>
+            <div class="btn-bg bg-2">
+                <div class="btn btn-2">
+                    <a href="contact_form.html" style="text-decoration: none;"><button type="button"
+                            class="btn btn-primary ml-5">Nous Contacter</button></a>
+                </div>
             </div>
         </div>
     </div>
@@ -202,8 +202,10 @@
                 <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="col-12 col-md-4 text-center">
-                Designed by Luk Imperinetti
+            <div class="col-12 col-md-4 text-center" id="add">
+                &copy; Copyright 2020 PCDOCTOR, All Rights Reserved
+                <br>
+                Designed by <a href="https://lukimperinetti.com" target="_blank">Luk Imperinetti</a>
             </div>
         </div>
     </footer>

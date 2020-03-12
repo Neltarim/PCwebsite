@@ -1,0 +1,345 @@
+.navbar-brand img {
+    max-height: 40px;
+}
+
+.bg-light {
+    background-color: #0065cc!important;
+}
+
+header .row {
+    background-image: url(../styles/images/setup3.jpg);
+    min-height: 70vh;
+    color: #eaeaea;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+header .main_image {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 70vh;
+    font-family: 'Contrail One', cursive;
+}
+
+header h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 50px;
+}
+
+header .slogan {
+    display: flex;
+    min-height: 70vh;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    header .slogan {
+        display: none;
+    }
+}
+
+#services .media span {
+    color: #0065cc;
+    font-size: 3rem;
+    width: 4rem;
+    text-align: center;
+}
+
+#services .media {
+    padding: 0.5rem 1rem;
+    transition: all .3s ease-in-out;
+}
+
+.find {
+    min-height: calc(100vh - 50px);
+    background-color: #d3dae4;
+}
+
+.find span {
+    font-size: 5rem;
+    color: #0065cc;
+}
+
+.find h5 {
+    font-size: 2.5rem;
+    color: #888;
+}
+
+.map iframe {
+    width: 100%;
+    min-height: calc(100vh - 50px);
+}
+
+#contact {
+    background-image: url(../styles/images/setup\ clean.jpg);
+    min-height: calc(100vh - 50px);
+    color: #eaeaea;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contact .row {
+    min-height: calc(100vh - 50px);
+}
+
+#coucou {
+    display: block;
+    margin: auto;
+}
+
+#bouton2 {
+    display: block;
+    margin: auto;
+}
+
+.boutton_contact {
+    /* background-color: rgba(255,255,255, .7); */
+    padding: 2rem 1rem;
+}
+
+button {
+    cursor: pointer;
+    height: 60px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    color: #999;
+    font-size: 2rem;
+}
+
+#add {
+    font-size: 13px;
+}
+
+#add a {
+    font-size: 15px;
+}
+
+#myform {
+    padding-top: 130px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
+}
+
+.form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+}
+
+.form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+}
+
+.form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #B22222;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+}
+
+.form-contact-button:hover {
+    opacity: 1;
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,100,300,700,100italic,300italic,400italic,700italic,900,900italic");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body .btn-bg {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .btn-bg.bg-2 .btn-2 button {
+    color: #0065cc;
+    background: #37e1ff;
+    border: none;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+body .btn-bg.bg-2 .btn-2 button:hover {
+    background: transparent;
+    color: #37e1ff;
+}
+
+body .btn-bg.bg-2 .btn-2 button:hover:before, body .btn-bg.bg-2 .btn-2 button:hover:after {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    width: 100%;
+}
+
+body .btn-bg.bg-2 .btn-2 button:before, body .btn-bg.bg-2 .btn-2 button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0px;
+    height: 3px;
+    background: #37e1ff;
+    transition: all 0.4s ease;
+}
+
+body .btn-bg.bg-2 .btn-2 button:after {
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+}
+
+.btn {
+    margin: 0 auto 30px auto;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: #fff;
+    position: relative;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 1rem 3rem 1rem 3rem;
+    text-transform: uppercase;
+    font-family: "Lato";
+    font-size: 1.5em;
+}
+
+button a {
+    text-decoration: none;
+}
+
+@-moz-keyframes cloud-animation {
+    100% {
+        background-position: 0px 2em;
+    }
+}
+
+@-webkit-keyframes cloud-animation {
+    100% {
+        background-position: 0px 2em;
+    }
+}
+
+@-o-keyframes cloud-animation {
+    100% {
+        background-position: 0px 2em;
+    }
+}
+
+@keyframes cloud-animation {
+    100% {
+        background-position: 0px 2em;
+    }
+}
+
+@-moz-keyframes witch-word-color {
+    0% {
+        color: #d3b7f7;
+    }
+    50% {
+        color: #50514f;
+    }
+    100% {
+        color: #fff;
+    }
+}
+
+@-webkit-keyframes witch-word-color {
+    0% {
+        color: #d3b7f7;
+    }
+    50% {
+        color: #50514f;
+    }
+    100% {
+        color: #fff;
+    }
+}
+
+@-o-keyframes witch-word-color {
+    0% {
+        color: #d3b7f7;
+    }
+    50% {
+        color: #50514f;
+    }
+    100% {
+        color: #fff;
+    }
+}
+
+@keyframes witch-word-color {
+    0% {
+        color: #d3b7f7;
+    }
+    50% {
+        color: #50514f;
+    }
+    100% {
+        color: #fff;
+    }
+}
